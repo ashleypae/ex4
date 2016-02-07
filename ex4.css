@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 04b30;
+    src: url(04b30.ttf);
+}
+
+h1 {
+    font-family: '04b30';
+    text-align: center;
+    font-size: 35pt;
+    padding-top: 30px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Droid Sans Mono';
+    font-size: 10pt;
+}
+
+
+footer {
+    font-family: 'Droid Sans Mono';
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+footer a:hover {
+    color: deepskyblue;
+}
+
+
+footer > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+p {
+    text-align: center;
+    width: 300px;
+}
+
+
+.footer{
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper{
+    width: 955px;
+    height: 540px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: auto;
+    
+}
+
+.object {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    border: none;
+    border-radius: 5px;
+    
+}
