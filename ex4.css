@@ -16,6 +16,10 @@ h1 {
     padding-top: 30px;
 }
 
+h2{
+    visibility: hidden;
+}
+
 body {
     background-color: white;
     font-family: 'Droid Sans Mono';
